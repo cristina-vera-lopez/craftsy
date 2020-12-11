@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto';
+  }
+  body {
+    background-image: url("../img/bg-2.png");
+    color:rgb(20, 20, 20);
+  }
+  div.master {
+    width: 1140px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* HEADER */
+  header {
+    background-color: orangered;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  header img {
+    float: left;
+    padding: 13px;
+  }
+  header nav {
+    padding: 7px;
+    overflow: hidden;
+  }
+  header nav ul.nav {
+    float: left;
+    overflow: hidden;
+  }
+  header nav ul.log {
+    float: right;
+    overflow: hidden;
+  }
+  header nav ul li {
+    float: left;
+    list-style: none;
+    margin: 0 10px;
+    border-bottom: 2px solid transparent;
+
+  }
+  div.master header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: all .5s;
+  }
+  div.master header nav ul li a:hover {
+    background-size: 100% 2px;
+    /*border-bottom: 2px solid hsla(0, 0%, 100%, 0.842);*/
+  }
+
+  /* MAIN */
+  main.home{
+    width: 800px;
+    float: left;
+  }
+
+   /* Productos */
+   section.productos{
+     background-color: white;
+     overflow: hidden; /*Contiene a los hijos de la flotacion */
+
+   }
+   section.productos article.producto{
+     margin: 10px 10px 20px 10px;
+     width: 380px;
+     float: left;
+   }
+   section.productos article.producto img{
+     width: 100%;
+  }
+  section.productos article.producto h2{
+    font-size: 22px;
+  }
+  section.productos article.producto button{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all .5s;
+  }
+  section.productos article.producto button:hover{
+    background-color: rgba(255, 68, 0, 0.753) ;
+  }
+
+  /* ASIDE */
+  aside{
+    width: 320px;
+    float: right;
+  }
+  aside h2{
+    background-color: white;
+    padding: 10px;
+    margin: 0 0 16px 0;
+    border: 1px solid #c4c4c4;
+  }
+
+  /* Tutoriales */
+  aside section.tutoriales div.tutoriales{
+    background-color: white;
+  } 
+  aside section.tutoriales div.tutoriales article{
+    padding: 10px;
+    overflow: hidden;
+    border: 1px solid #c4c4c4;
+  } 
+  aside section.tutoriales div.tutoriales article img{
+    float: left;
+  }
+  aside section.tutoriales div.tutoriales p{
+    float: right;
+    width: 176px;
+  } 
+  
+  /* Publicidad */
+  aside section.publicidad{
+    margin-top: 40px;
+  }
+  aside section.publicidad div.publicidad{
+    background-color: white;
+    border: 1px solid #c4c4c4;
+  }
+  aside section.publicidad div.publicidad article img{
+    margin: 9px;
+  }
+
+  /* FORMULARIOS */
+  div.form{
+    width: 350px;
+    margin: auto;
+  }
+  h1{
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    text-align: center;
+  }
+  div.input{
+    margin: 20px 0;
+    width: 100%;
+    padding: 0.5px;
+  }
+  input#email{
+    width: 350px;
+  }
+  input#password{
+    width: 350px;
+  }
+  div.recordar{
+    text-align: right;;
+  }
+  p.aviso{
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    color: red;
+  }
+  div form button{
+    background-color:blue;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    border: 1px;
+    border-radius: 8px;
+  }
+
+  /* REGISTRO*/
+
+div.registro{
+  width: 350px;
+  margin: 20px 0;
+}
+h1{
+  text-align: center;
+}
+p.aviso{
+  font-family: 'Roboto';
+  color: red;
+  margin-top: 10px;
+}
+
+div.inmput{
+  margin-top: 10px;
+}
+
+div.cajaForm{
+  margin: 20px 0;
+}
+
+div.cajaFormBtn{
+  margin: 20px 0;
+}
+
+
